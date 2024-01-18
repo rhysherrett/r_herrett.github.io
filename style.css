@@ -43,10 +43,9 @@ p {
 /* navigation button*/
 
 .box13 {
-    border: 1px solid black;
-    border-radius: 10%;
-    background-color: black;
-    width: 11.111rem;
+    border: 0.055rem solid hsla(260, 0%, 0%, 1);
+    background-color: hsla(260, 0%, 0%, 1);
+    width: 6.666rem;
     margin: 0.555rem auto 0.555rem auto;
     padding: 0.555rem;
     text-align: center;
@@ -69,21 +68,6 @@ p {
     font-family: 'permanent marker';
     font-size: 2.666rem;
     text-align: center;
-    animation: jump 4s linear infinite;
-}
-
-@keyframes jump {
-    0% {
-        transform: scale(0.1);
-    }
-
-    60% {
-        transform: scale(1.2);
-    }
-
-    100% {
-        transform: scale(1);
-    }
 }
 
 /*index page css*/
@@ -91,8 +75,8 @@ p {
 
 .continer-index {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(3, 25rem);
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, 25rem);
 }
 
 .box1 {
@@ -109,10 +93,10 @@ p {
 }
 
 .box2 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
     background-image: url("./spanner.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -122,10 +106,10 @@ p {
 }
 
 .box3 {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
     background-image: url("./depressed.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -135,10 +119,10 @@ p {
 }
 
 .box4 {
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
     background-image: url("./talking1.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -150,8 +134,8 @@ p {
 .box5 {
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
     background-image: url("./autism.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -161,10 +145,10 @@ p {
 }
 
 .box6 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
     background-image: url("./talking2.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -174,10 +158,10 @@ p {
 }
 
 .box7 {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 7;
+    grid-row-end: 8;
     background-image: url("./brain.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -187,10 +171,10 @@ p {
 }
 
 .box8 {
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 8;
+    grid-row-end: 9;
     background-image: url("./kapow.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -202,8 +186,8 @@ p {
 .box9 {
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 9;
+    grid-row-end: 10;
     background-image: url("./anger.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -213,10 +197,10 @@ p {
 }
 
 .box10 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 10;
+    grid-row-end: 11;
     background-image: url("./idea.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -226,10 +210,10 @@ p {
 }
 
 .box11 {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 11;
+    grid-row-end: 12;
     background-image: url("./computer.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -239,10 +223,10 @@ p {
 }
 
 .box12 {
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 12;
+    grid-row-end: 13;
     background-image: url("./happy.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -343,7 +327,10 @@ p {
     padding-left: 0.555rem;
 }
 
+/*laptop and desktop nav*/
+
 .nav {
+    display: none;
     float: right;
     padding-top: 0.888rem;
     padding-right: 0.555rem;
@@ -368,7 +355,6 @@ nav a {
 /*mobil navigation drop down menu*/
 
 .mobile-nav {
-    display: none;
     float: right;
     position: relative;
     margin-right: 1.111rem;
@@ -465,11 +451,16 @@ nav a {
     border-bottom: 0.055rem solid hsla(260, 0%, 0%, 1);
 }
 
-/*tabet screen sizes*/
+/*tabet and above screen sizes*/
 
-@media only screen and (max-width: 1200px) and (min-width: 900px) {
-    html {
-        font-size: 16px;
+@media only screen and (min-width: 700px) {
+
+    .mobile-nav {
+        display: none;
+    }
+
+    .nav {
+        display: initial;
     }
 
     .continer-index {
@@ -560,111 +551,5 @@ nav a {
         grid-column-end: 4;
         grid-row-start: 4;
         grid-row-end: 5;
-    }
-}
-
-/*mobile screen sizes*/
-
-@media only screen and (max-width: 900px) and (min-width: 320px) {
-    html {
-        font-size: 16px;
-    }
-
-    .nav {
-        display: none
-    }
-
-    .mobile-nav {
-        display: initial;
-    }
-
-    .continer-index {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(12, 16.666rem);
-    }
-
-    .box1 {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
-
-    .box2 {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
-
-    .box3 {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-
-    .box4 {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 4;
-        grid-row-end: 5;
-    }
-
-    .box5 {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 5;
-        grid-row-end: 6;
-    }
-
-    .box6 {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 6;
-        grid-row-end: 7;
-    }
-
-    .box7 {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 7;
-        grid-row-end: 8;
-    }
-
-    .box8 {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 8;
-        grid-row-end: 9;
-    }
-
-    .box9 {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 9;
-        grid-row-end: 10;
-    }
-
-    .box10 {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 10;
-        grid-row-end: 11;
-    }
-
-    .box11 {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 11;
-        grid-row-end: 12;
-    }
-
-    .box12 {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 12;
-        grid-row-end: 13;
     }
 }
