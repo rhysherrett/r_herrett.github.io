@@ -3,12 +3,13 @@
 
 <head>
     <title>My Resume</title>
-    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-    <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
 </head>
+
 <body>
     <main class="continer">
 
@@ -27,8 +28,10 @@
                 <button onclick="navFunction()" id="dropdown_button">Menu</button>
                 <div id="dropDownNav">
                     <ul>
-                        <li><a href="./index.html">Back To Home Page</li>
+                        <li><a href="./index.html">Back To Home Page</a></li>
+                        <hr>
                         <li><a href="#experiance-nav">Employment History</a></li>
+                        <hr>
                         <li><a href="#quilifications-nav">Quilifications</a></li>
                     </ul>
                 </div>
@@ -132,7 +135,9 @@
                         products.</li>
                 </ul>
             </div>
-            <button onclick="myFunction()" id="myBtn" class="button2">Read more</button>
+            <div class="readButton">
+                <button onclick="myFunction()" id="myBtn" class="button2">Read more</button>
+            </div>
         </section>
         <!--Education section-->
         <section class="quilifications" id="quilifications-nav">
