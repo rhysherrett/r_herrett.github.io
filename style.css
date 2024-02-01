@@ -11,12 +11,8 @@
 
       /*general styleing*/
 
-      body {
-          background-color: hsla(240, 5%, 72%, 0.767);
-      }
-
       h1 {
-          font-size: 2.222rem;
+          font-size: 2rem;
       }
 
       h2 {
@@ -263,7 +259,7 @@
 
       .continer {
           display: grid;
-          width: 96%;
+          width: 100%;
           height: auto;
           grid-template-columns: 1fr 3fr 1fr;
           grid-template-rows: 4.777rem 45rem auto auto auto;
@@ -344,15 +340,11 @@
       .mobile-nav button {
           border: 1px solid #ffffff;
           color: hsla(260, 0%, 0%, 1);
-          font-size: 1.2rem;
+          font-size: 1rem;
           background-color: hsla(240, 15%, 92%, 1);
-          width: 5.555rem;
-          height: 2.777rem;
+          width: 5.5rem;
+          height: 2.7rem;
           margin-top: 1.111rem;
-      }
-
-      .mobile-nav button:hover {
-          text-decoration: underline;
       }
 
       #dropDownNav {
@@ -378,11 +370,7 @@
       #dropDownNav a {
           color: hsla(240, 5%, 72%, 0.767);
           text-decoration: none;
-          font-size: 1.5rem;
-      }
-
-      #dropDownNav a:hover {
-          text-decoration: underline;
+          font-size: 1rem;
       }
 
       /*resume css*/
@@ -423,7 +411,7 @@
       /*education section*/
 
       .table {
-          width: 80%;
+          width: 100%;
           background-color: #ffffff;
           margin: 0.555rem auto 0.555rem auto;
       }
@@ -435,7 +423,7 @@
 
       .table td {
           border-bottom: 0.055rem solid hsla(260, 0%, 0%, 1);
-          font-size: 1.2rem;
+          font-size: 1rem;
       }
 
   }
