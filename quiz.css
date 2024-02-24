@@ -1,0 +1,837 @@
+/*Mobile sizes*/
+@media only screen and (max-width:699px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 20px;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .hr {
+        width: 100%;
+    }
+
+    .nav ul {
+        list-style: none;
+    }
+
+    .nav li {
+        display: block;
+        margin: 0.5rem;
+    }
+
+    .nav a {
+        padding: 0.2rem;
+        color: hsla(240, 5%, 72%, 0.767);
+        border: 0.05rem solid hsla(260, 0%, 0%, 1);
+        background-color: hsla(260, 0%, 0%, 1);
+        text-decoration: none;
+    }
+
+    .nav a:hover {
+        text-decoration: underline;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat 8(20rem 7.5rem 7.5rem 7.5rem);
+    }
+
+    .container button {
+        display: block;
+        margin: 0.2rem auto;
+        width: 10rem;
+        padding: 0.111rem;
+        font-size: 1rem;
+    }
+
+    .container img {
+        width: 11.111rem;
+        height: 11.111rem;
+    }
+
+    /*Question one img*/
+    .box1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /*question one question*/
+    .box2 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /*Question one buttons*/
+    .box3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /*Question one result*/
+    .box4 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /*Question two img */
+    .box5 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* Question two question */
+    .box6 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 6;
+        grid-row-end: 7;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* Question two buttons */
+    .box7 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 7;
+        grid-row-end: 8;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* Question two result */
+    .box8 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 8;
+        grid-row-end: 9;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* Question three img */
+    .box9 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 9;
+        grid-row-end: 10;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* Question three question */
+    .box10 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 10;
+        grid-row-end: 11;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* Question three buttons */
+    .box11 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 11;
+        grid-row-end: 12;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* Question three result */
+    .box12 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 12;
+        grid-row-end: 13;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* Question four img */
+    .box13 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 13;
+        grid-row-end: 14;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* Question four question */
+    .box14 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 14;
+        grid-row-end: 15;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* question four buttons */
+    .box15 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 15;
+        grid-row-end: 16;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* Question four results */
+    .box16 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 16;
+        grid-row-end: 17;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* Question five img */
+    .box17 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 17;
+        grid-row-end: 18;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* Question five question */
+    .box18 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 18;
+        grid-row-end: 19;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* Question five buttons */
+    .box19 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 19;
+        grid-row-end: 20;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* question five results */
+    .box20 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 20;
+        grid-row-end: 21;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* Question six img */
+    .box21 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 21;
+        grid-row-end: 22;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* Question six question */
+    .box22 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 22;
+        grid-row-end: 23;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* Question six button */
+    .box23 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 23;
+        grid-row-end: 24;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* Question six results */
+    .box24 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 24;
+        grid-row-end: 25;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* Question seven img */
+    .box25 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 25;
+        grid-row-end: 26;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* Question seven question */
+    .box26 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 26;
+        grid-row-end: 27;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* Question seven buttons */
+    .box27 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 27;
+        grid-row-end: 28;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* Question seven result */
+    .box28 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 28;
+        grid-row-end: 29;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* Question eight img */
+    .box29 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 29;
+        grid-row-end: 30;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* question eight question */
+    .box30 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 30;
+        grid-row-end: 31;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* Question eight buttons */
+    .box31 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 31;
+        grid-row-end: 32;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* Question eight result */
+    .box32 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 32;
+        grid-row-end: 34;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    #finalResult {
+        display: none;
+        width: 100%;
+        border: 0.05rem solid hsla(240, 88%, 45%, 0.767);
+        background-color: hsla(240, 88%, 45%, 0.767);
+        color: hsla(216, 12%, 92%, 0.89);
+        text-align: center;
+    }
+}
+
+/*Desktop and tablet sizes*/
+@media only screen and (min-width:700px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 18px;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .hr {
+        width: 100%;
+    }
+    .nav ul {
+        list-style: none;
+    }
+
+    .nav li {
+        display: inline;
+        margin-left: 0.277rem
+    }
+
+    .nav a {
+        padding: 0.2222rem;
+        color: azure;
+        border: 0.0555rem solid hsla(260, 0%, 0%, 1);
+        background-color: hsla(260, 0%, 0%, 1);
+        text-decoration: none;
+    }
+
+    .nav a:hover {
+        text-decoration: underline;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat 8(22.222rem 8.3333rem 8.3333rem 8.3333rem);
+    }
+
+    .container button {
+        display: inline;
+        margin: 0.055rem 0.055rem;
+        padding: 0.111rem;
+        font-size: 1rem;
+    }
+
+    .container img {
+        width: 11.111rem;
+        height: 11.111rem;
+    }
+
+    /*Question one img*/
+    .box1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /*question one question*/
+    .box2 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /*Question one buttons*/
+    .box3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /*Question one result*/
+    .box4 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /*Question two img */
+    .box5 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* Question two question */
+    .box6 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 6;
+        grid-row-end: 7;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* Question two buttons */
+    .box7 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 7;
+        grid-row-end: 8;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* Question two result */
+    .box8 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 8;
+        grid-row-end: 9;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* Question three img */
+    .box9 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 9;
+        grid-row-end: 10;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* Question three question */
+    .box10 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 10;
+        grid-row-end: 11;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* Question three buttons */
+    .box11 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 11;
+        grid-row-end: 12;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* Question three result */
+    .box12 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 12;
+        grid-row-end: 13;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* Question four img */
+    .box13 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 13;
+        grid-row-end: 14;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* Question four question */
+    .box14 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 14;
+        grid-row-end: 15;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* question four buttons */
+    .box15 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 15;
+        grid-row-end: 16;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* Question four results */
+    .box16 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 16;
+        grid-row-end: 17;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* Question five img */
+    .box17 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 17;
+        grid-row-end: 18;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* Question five question */
+    .box18 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 18;
+        grid-row-end: 19;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* Question five buttons */
+    .box19 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 19;
+        grid-row-end: 20;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* question five results */
+    .box20 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 20;
+        grid-row-end: 21;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* Question six img */
+    .box21 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 21;
+        grid-row-end: 22;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* Question six question */
+    .box22 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 22;
+        grid-row-end: 23;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* Question six button */
+    .box23 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 23;
+        grid-row-end: 24;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* Question six results */
+    .box24 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 24;
+        grid-row-end: 25;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* Question seven img */
+    .box25 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 25;
+        grid-row-end: 26;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* Question seven question */
+    .box26 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 26;
+        grid-row-end: 27;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* Question seven buttons */
+    .box27 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 27;
+        grid-row-end: 28;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* Question seven result */
+    .box28 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 28;
+        grid-row-end: 29;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* Question eight img */
+    .box29 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 29;
+        grid-row-end: 30;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* question eight question */
+    .box30 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 30;
+        grid-row-end: 31;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    /* Question eight buttons */
+    .box31 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 31;
+        grid-row-end: 32;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /* Question eight result */
+    .box32 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 32;
+        grid-row-end: 34;
+        align-self: center;
+        justify-self: center;
+        padding: 0.277rem;
+        text-align: center;
+    }
+
+    #finalResult {
+        display: none;
+        width: 100%;
+        border: 1px solid hsla(240, 88%, 45%, 0.767);
+        background-color: hsla(240, 88%, 45%, 0.767);
+        color: hsla(216, 12%, 92%, 0.89);
+        text-align: center;
+    }
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<HTML>
+
+<HEAD>
+    <title>Quiz</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link href="./quiz.css" rel="stylesheet" type="text/css" />
+</HEAD>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul>
+                <li><a href="./index.html">Back to Home Page</a></li>
+                <li><a href='./resume.html'>Resume</a></li>
+            </ul>
+        </nav>
+        <h1>General knowlegde Quiz</h1><br>
+        <h2>Test your brain</h2>
+    </header>
+    <main class="container" id="content">
+        <!--question one-->
+        <div class="box1">
+            <img src="./quizassets\einstein.jpg" alt="A picture of Albert einstein" />
+        </div>
+        <div class="box2">
+            <p>Q1: Who is the famous physicist above that wrote the General Theory of Reletivity?</p>
+        </div>
+        <div class="box3">
+            <button id="bnt1" onclick="game('a',0,button1)">A: Isacc Newton</button>
+            <button id="bnt2" onclick="game('b',0,button2)">B: Albert Einstein</button>
+            <button id="bnt3" onclick="game('c',0,button3)">C: Max Planck</button>
+            <hr>
+        </div>
+        <div class="box4">
+        </div>
+
+        <!--Question two-->
+        <div class="box5">
+            <img src="./quizassets\orwell.jpg" alt="A picture of George orwell" />
+        </div>
+        <div class="box6">
+            <p>Q2: Who above wrote the books Animal Farm and 1984?</p>
+        </div>
+        <div class="box7">
+            <button id="bnt4" onclick="game('a',1,button4)">A: Audus Hoxley</button>
+            <button id="bnt5" onclick="game('b',1,button5)">B: Roald Dahl</button>
+            <button id="bnt6" onclick="game('c',1,button6)">C: George Orwell</button>
+            <hr>
+        </div>
+        <div class="box8">
+        </div>
+
+        <!--Question three-->
+        <div class="box9">
+            <img src="./quizassets\solar.jpg" alt="A picture of the Solar System" />
+        </div>
+        <div class="box10">
+            <p>Q3: Whats the biggest planet in the Solar System?</p>
+        </div>
+        <div class="box11">
+            <button id="bnt7" onclick="game('a',2,button7)">A: Jupiter</button>
+            <button id="bnt8" onclick="game('b',2,button8)">B: Mars</button>
+            <button id="bnt9" onclick="game('c',2,button9)">C: Sun</button>
+            <hr>
+        </div>
+        <div class="box12">
+        </div>
+        <!--Question four-->
+        <div class="box13">
+            <img src="./quizassets\math.png" alt="A picture of the Solar System" />
+        </div>
+        <div class="box14">
+            <p>Q4: Whats the answer to 1 + (2 * 2)?</p>
+        </div>
+        <div class="box15">
+            <button id="bnt10" onclick="game('a',3,button10)">A: 8</button>
+            <button id="bnt11" onclick="game('b',3,button11)">B: 6</button>
+            <button id="bnt12" onclick="game('c',3,button12)">C: 5</button>
+            <hr>
+        </div>
+        <div class="box1">
+        </div>
+        <!--Question Five-->
+        <div class="box17">
+            <img src="./quizassets\hermes.jpg" alt="A picture of the Solar System" />
+        </div>
+        <div class="box18">
+            <p>Q5: In Greek Mythology who was the harald of the Gods?</p>
+        </div>
+        <div class="box19">
+            <button id="bnt13" onclick="game('a',4,button13)">A: Zeus</button>
+            <button id="bnt14" onclick="game('b',4,button14)">B: Hermes</button>
+            <button id="bnt15" onclick="game('c',4,button15)">C: Ares</button>
+            <hr>
+        </div>
+        <div class="box20">
+        </div>
+        <!--Question Six-->
+        <div class="box21">
+            <img src="./quizassets\alexander.jpg" alt="A picture of the Solar System" />
+        </div>
+        <div class="box22">
+            <p>Q6: Who above is the famous Macedonian King that in the 4th century BC conquered half the
+                known world?
+            </p>
+        </div>
+        <div class="box23">
+            <button id="bnt16" onclick="game('a',5,button16)">A: Alexander the Great</button>
+            <button id="bnt17" onclick="game('b',5,button17)">B: Julius Ceaser</button>
+            <button id="bnt18" onclick="game('c',5,button18)">C: Archimedes</button>
+            <hr>
+        </div>
+        <div class="box24">
+        </div>
+
+        <!--Question Seven-->
+        <div class="box25">
+            <img src="./quizassets\sherlock.jpg" alt="A picture of the Solar System" />
+        </div>
+        <div class="box26">
+            <p>Q7: Who created the fictional charactor Sherlock Holmes?</p>
+        </div>
+        <div class="box27">
+            <button id="bnt19" onclick="game('a',6,button19)">A: Jules verne</button>
+            <button id="bnt20" onclick="game('b',6,button20)">B: Dan Brown</button>
+            <button id="bnt21" onclick="game('c',6,button21)">C: Sir Arthur Conan Doyle</button>
+            <hr>
+        </div>
+        <div class="box28">
+        </div>
+
+        <!--Question Eight-->
+        <div class="box29">
+            <img src="./quizassets\aristotle.jpg" alt="A picture of the Solar System" />
+        </div>
+        <div class="box30">
+            <p>Q8: Who is the Famous 4th centry BC philosopher above who was taught by Plato and had
+                Alexander the Great as his student?</p>
+        </div>
+        <div class="box31">
+            <button id="bnt22" onclick="game('a',7,button22)">A: Solon</button>
+            <button id="bnt23" onclick="game('b',7,button23)">B: Aristotle</button>
+            <button id="bnt24" onclick="game('c',7,button24)">C: Socrates</button>
+        </div>
+        <div class="box32">
+            <hr>
+            <p id="error"></p>
+            <button id="submit" onclick="allQuestionsDone()">Submit</button>
+    </main>
+    <div id="finalResult">
+        <h1 id="congrats"></h1>
+        <h2 id="yourScore"></h2>
+        <h2 id="advice"></h2>
+    </div>
+    <script src="./quiz.js" async></script>
+</body>
+
+</HTML>

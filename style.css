@@ -38,18 +38,16 @@
       /*navigation style*/
       /* navigation button*/
 
-      .box13 {
+      .box13 a {
+          display: block;
           border: 0.055rem solid hsla(260, 0%, 0%, 1);
           background-color: hsla(260, 0%, 0%, 1);
-          width: 6.666rem;
-          margin: 0.555rem auto 0.555rem auto;
-          padding: 0.555rem;
-          text-align: center;
-      }
-
-      .box13 a {
           color: hsla(240, 5%, 72%, 0.767);
           text-decoration: none;
+          width: 5.5555rem;
+          margin: 0.1818rem auto;
+          padding: 0.0909rem;
+          text-align: center;
       }
 
       .box13 a:hover {
@@ -312,6 +310,13 @@
           grid-row-end: 6;
       }
 
+      footer {
+          background-color: hsla(260, 0%, 0%, 0.55);
+          color: hsla(240, 15%, 92%, 1);
+          width: 100%;
+          padding: 8px;
+      }
+
       /*resume css*/
       /*header and navigation styleing*/
 
@@ -474,19 +479,18 @@
       /*navigation style*/
       /* navigation button*/
 
-      .box13 {
+      .box13 a {
+          display: block;
           border: 0.055rem solid hsla(260, 0%, 0%, 1);
           background-color: hsla(260, 0%, 0%, 1);
-          width: 6.666rem;
-          margin: 0.555rem auto 0.555rem auto;
-          padding: 0.555rem;
+          color: hsla(240, 5%, 72%, 0.767);
+          text-decoration: none;
+          width: 5.5555rem;
+          margin: 0.1818rem auto;
+          padding: 0.0909rem;
           text-align: center;
       }
 
-      .box13 a {
-          color: hsla(240, 5%, 72%, 0.767);
-          text-decoration: none;
-      }
 
       .box13 a:hover {
           text-decoration: underline;
@@ -748,6 +752,13 @@
           grid-row-end: 6;
       }
 
+      footer {
+          background-color: hsla(260, 0%, 0%, 0.55);
+          color: hsla(240, 15%, 92%, 1);
+          width: 100%;
+          padding: 8px;
+      }
+
       /*resume css*/
       /*header and navigation styleing*/
 
@@ -919,18 +930,16 @@
       /*navigation style*/
       /* navigation button*/
 
-      .box13 {
+      .box13 a {
+          display: block;
           border: 0.055rem solid hsla(260, 0%, 0%, 1);
           background-color: hsla(260, 0%, 0%, 1);
-          width: 6.666rem;
-          margin: 0.555rem auto 0.555rem auto;
-          padding: 0.555rem;
-          text-align: center;
-      }
-
-      .box13 a {
           color: hsla(240, 5%, 72%, 0.767);
           text-decoration: none;
+          width: 5.5555rem;
+          margin: 0.1818rem auto;
+          padding: 0.2222rem;
+          text-align: center;
       }
 
       .box13 a:hover {
@@ -1191,6 +1200,13 @@
           grid-column-end: 4;
           grid-row-start: 5;
           grid-row-end: 6;
+      }
+
+      footer {
+          background-color: hsla(260, 0%, 0%, 0.55);
+          color: hsla(240, 15%, 92%, 1);
+          width: 100%;
+          padding: 8px;
       }
 
       /*resume css*/
